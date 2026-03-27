@@ -11,7 +11,7 @@ from datetime import datetime
 import re
 import os
 
-# ── CONFIG — paste your Gemini key here ──────────────────────────────────────
+# ── CONFIG —
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "YOUR_GEMINI_API_KEY_HERE")
 
 # ── Page setup ────────────────────────────────────────────────────────────────
