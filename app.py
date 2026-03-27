@@ -435,7 +435,7 @@ def extract_text_from_pdf(file_bytes: bytes) -> str:
 
 def extract_invoice_data(file_bytes: bytes, filename: str) -> dict:
     genai.configure(api_key=GEMINI_API_KEY)
-    model = genai.GenerativeModel("gemini-1.5-flash")
+    model = genai.GenerativeModel("gemini-2.5-flash")
     ext = filename.lower().split(".")[-1]
     is_image = ext in ("jpg", "jpeg", "png", "webp")
 
