@@ -788,6 +788,6 @@ if "results" in st.session_state:
 st.markdown("""
 <div class="footer">
     <div class="footer-brand"><span>Invoxa</span> — AI Invoice Extractor</div>
-    <div class="footer-note">Powered by Gemini 1.5 Flash · Built with Streamlit · Free to use</div>
+    <div class="footer-note">Powered by Farhan · Built with passion · Free to use</div>
 </div>
 """, unsafe_allow_html=True)
